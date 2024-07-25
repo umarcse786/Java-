@@ -12,6 +12,8 @@ public class scan {
 			System.out.println("enter a number");
 			int n= sc.nextInt();
 			System.out.println("your number is :"+n);
+			System.out.println("hello");
+			
 		
 
 
