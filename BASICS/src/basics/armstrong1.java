@@ -21,7 +21,7 @@ public class armstrong1 {
 		}
 		
 		
-		System.out.println(sum);
+		
 		if(sum==x)
 		{
 			System.out.println("armstrong number");
