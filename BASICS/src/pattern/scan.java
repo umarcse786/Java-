@@ -13,7 +13,7 @@ public class scan {
 			int n= sc.nextInt();
 			System.out.println("your number is :"+n);
 			System.out.println("hello");
-			
+			int y;
 		
 
 
