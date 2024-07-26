@@ -5,7 +5,7 @@ public class armstrong1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int sum=0;
-		int res=0;
+		
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number");
@@ -16,9 +16,8 @@ public class armstrong1 {
 			
 		{
 			r=n%10;
-			res=(r*r*r);
 			n=n/10;
-			sum=sum+res;
+			sum=sum+(r*r*r);
 		}
 		
 		
