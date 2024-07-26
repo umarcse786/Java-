@@ -1,0 +1,36 @@
+package basics;
+import java.util.Scanner;
+public class armstrong1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int sum=0;
+		int res=0;
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int n=sc.nextInt();
+		int x=n;
+		int r=0;
+		for(int i=1;i<=3;i++)
+			
+		{
+			r=n%10;
+			res=(r*r*r);
+			n=n/10;
+			sum=sum+res;
+		}
+		
+		
+		System.out.println(sum);
+		if(sum==x)
+		{
+			System.out.println("armstrong number");
+		}
+		else
+		{
+			System.out.println("not a armstrong number");
+		}
+	}
+
+}
